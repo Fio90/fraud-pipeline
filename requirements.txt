@@ -1,0 +1,12 @@
+pandas
+numpy
+sqlalchemy
+psycopg2-binary
+python-dotenv
+xgboost
+scikit-learn
+fastapi
+uvicorn
+apache-airflow
+dbt-postgres
+jupyter

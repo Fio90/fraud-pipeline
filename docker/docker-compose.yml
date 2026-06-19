@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  fraud_db:
+    image: postgres:15
+    container_name: fraud_pipeline_db
+    environment:
+      POSTGRES_USER: fraud_user
+      POSTGRES_PASSWORD: fraud_pass
+      POSTGRES_DB: fraud_db
+    ports:
+      - "5434:5432"
+    volumes:
+      - fraud_db_data:/var/lib/postgresql/data
+
+volumes:
+  fraud_db_data:
