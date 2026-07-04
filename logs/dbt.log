@@ -1,0 +1,12 @@
+[0m08:43:23.088259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D25FF6A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D26006950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D26006490>]}
+
+
+============================== 08:43:23.157319 | cd374885-d16b-4402-abec-75bee1daa149 ==============================
+[0m08:43:23.157319 [info ] [MainThread]: Running with dbt=1.12.0-b3
+[0m08:43:23.159627 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\frede\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init dbt_project', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m08:43:23.589107 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\frede\.dbt
+[0m08:43:23.589107 [info ] [MainThread]: A project called dbt_project already exists here.
+[0m08:43:23.602478 [debug] [MainThread]: Command `dbt init` succeeded at 08:43:23.602478 after 0.74 seconds
+[0m08:43:23.606392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D25FF5FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D1EAE7510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D260B5110>]}
+[0m08:43:23.608210 [debug] [MainThread]: Flushing usage events
+[0m08:43:25.074153 [debug] [MainThread]: An error was encountered while trying to flush usage events
